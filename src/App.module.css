@@ -62,10 +62,12 @@
 
 .createdTasks {
   color: var(--blue);
+  font-size: 0.875rem;
 }
 
 .finishedTasks {
   color: var(--purple);
+  font-size: 0.875rem;
 }
 
 .createdTasks span,
@@ -73,7 +75,7 @@
   color: var(--gray-100);
   background: var(--gray-400);
   padding: 0 0.5rem;
-  border-radius: 50%;
+  border-radius: 40%;
   font-weight: 400;
   margin-left: 0.5rem;
 }
@@ -83,6 +85,7 @@
   margin: 0 auto;
   padding: 5rem;
   max-width: 736px;
+  line-height: 1.4;
 }
 
 .taskListBody svg {
