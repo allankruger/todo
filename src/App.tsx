@@ -1,6 +1,7 @@
 import "./global.css";
 import styles from "./App.module.css";
 import Logo from "./assets/todologo.svg";
+import { PlusCircle } from "phosphor-react";
 
 export function App() {
   return (
@@ -11,8 +12,10 @@ export function App() {
         </div>
       </header>
       <div className={styles.searchBar}>
-        <input type="text" />
-        <button>Create</button>
+        <input type="text" placeholder="Add a new task" />
+        <button>
+          Create <PlusCircle size={18} weight="bold" />
+        </button>
       </div>
     </div>
   );
