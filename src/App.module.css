@@ -1,0 +1,17 @@
+.header {
+  background: var(--gray-700);
+  height: 12.5rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 4.5rem;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: -1rem;
+}
