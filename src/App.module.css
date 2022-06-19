@@ -13,8 +13,9 @@
   display: flex;
   justify-content: center;
   gap: 0.5rem;
-  margin-top: -2rem;
+  margin: -2rem auto;
   height: 3.375rem;
+  width: 736px;
 }
 
 .searchBar input {
@@ -23,6 +24,7 @@
   border: 0;
   border-radius: 8px;
   caret-color: var(--blue);
+  width: 100%;
 }
 
 .searchBar button {
@@ -42,4 +44,50 @@
 
 .searchBar button:hover {
   background: var(--blue);
+}
+
+.taskList {
+  margin-top: 4rem;
+}
+
+.taskListHeader {
+  margin: 0 auto;
+  max-width: 736px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray-500);
+  padding-bottom: 1.5rem;
+}
+
+.createdTasks {
+  color: var(--blue);
+}
+
+.finishedTasks {
+  color: var(--purple);
+}
+
+.createdTasks span,
+.finishedTasks span {
+  color: var(--gray-100);
+  background: var(--gray-400);
+  padding: 0 0.5rem;
+  border-radius: 50%;
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
+
+.taskListBody {
+  text-align: center;
+  margin: 0 auto;
+  padding: 5rem;
+  max-width: 736px;
+}
+
+.taskListBody svg {
+  color: var(--gray-500);
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2rem;
 }
