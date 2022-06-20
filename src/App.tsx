@@ -19,6 +19,20 @@ export function App() {
         </button>
       </div>
 
+      <div className={styles.taskListHeader}>
+          <div>
+            <strong className={styles.createdTasks}>
+              Created tasks<span>5</span>
+            </strong>
+          </div>
+
+          <div>
+            <strong className={styles.finishedTasks}>
+              Finished<span>5</span>
+            </strong>
+          </div>
+        </div>
+
       <List />
     </div>
   );
